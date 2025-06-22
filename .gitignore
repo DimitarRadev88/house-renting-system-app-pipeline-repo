@@ -1,0 +1,44 @@
+# This .gitignore file is for Visual Studio and .NET projects.
+# It covers common files and directories that should not be committed to Git.
+
+## Ignore generated files and directories ##
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+build/
+dist/
+artifacts/
+
+# Visual Studio temporary files
+*.suo
+*.user
+*.userprefs
+*.vspscc
+*.vssscc
+*.waf
+*.webtest
+*.xsc
+*.xss
+*.xuo
+*.designer.cs.dll  # Generally in obj, but good to be explicit for rare cases
+*.Designer.vb.dll
+
+# Visual Studio caches and solution/project specific files
+.vs/                  # Visual Studio 2017+ hidden folder
+*.vshost.* # Visual Studio hosting process files
+*.testsettings
+*.trx                 # Test results files
+*.rdc
+*.rptproj
+
+# NuGet packages
+packages/             # Older style NuGet packages folder (no longer common with PackageReference)
+*.nuget/
+*.nupkg               # NuGet package files
+*.lock.json           # Package restore lock file (e.g., project.assets.json, sometimes in obj)
+
+# NPM/Yarn for JavaScript/TypeScript
